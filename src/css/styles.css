@@ -19,6 +19,7 @@ body {
   margin-bottom: 16px;
   display: flex;
   margin: auto;
+  margin-top: 50px;
   transition: all 1s ease-out;
   border: 1px white;
   background-color: lightsteelblue;
@@ -33,4 +34,10 @@ body {
 #search-box:focus {
   background-color: lavender;
   outline: none;
+}
+.country-list {
+  list-style: none;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
 }
